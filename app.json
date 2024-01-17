@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/badmunda98/Legend_Bot",
+    "repository": "https://github.com/badmunda011/Legend_Bot",
     "env": {
      "CMD_HNDLR": {
             "description": "Custom command handler.",
