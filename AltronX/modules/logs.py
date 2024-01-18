@@ -17,6 +17,16 @@ Heroku = heroku3.from_key(HEROKU_API_KEY)
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
 async def logs(legend):
     if legend.sender_id == OWNER_ID:
         if (HEROKU_APP_NAME is None) or (HEROKU_API_KEY is None):
@@ -44,3 +54,4 @@ async def logs(legend):
         await MK1.send_file(legend.chat_id, "skspam.txt", caption=f"⚡ 𝐁𝐀𝐃 ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
     else:
         await legend.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")
+     
