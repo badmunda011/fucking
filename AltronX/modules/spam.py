@@ -30,6 +30,16 @@ from AltronX.data import GROUP, PORMS
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
 async def spam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗦𝗽𝗮𝗺\n  » {hl}spam <count> <message to spam>\n  » {hl}spam <count> <reply to a message>"
     if e.sender_id in SUDO_USERS:
@@ -68,6 +78,16 @@ async def spam(e):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
 async def pspam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗣𝗼𝗿𝗻𝗦𝗽𝗮𝗺\n  » {hl}pspam <count>"
     if e.sender_id in SUDO_USERS:
@@ -97,6 +117,16 @@ async def pspam(e):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
 async def hang(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗛𝗮𝗻𝗴\n  » {hl}hang <count>"
     if e.sender_id in SUDO_USERS:
@@ -110,3 +140,4 @@ async def hang(e):
                 await asyncio.wait([e.respond(hang, reply_to=e.reply_to_msg_id) for i in range(counter)])
         else:
             await e.reply(usage)
+         
