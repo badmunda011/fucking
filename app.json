@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/badmunda011/Legend_Bot",
+    "repository": "https://github.com/badmunda98/Legend_Bot",
     "env": {
      "CMD_HNDLR": {
             "description": "Custom command handler.",
@@ -63,7 +63,57 @@
       "BOT_TOKEN10": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": true  
+      },
+            "BOT_TOKEN11": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
+      },
+            "BOT_TOKEN12": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
+      },
+            "BOT_TOKEN13": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
+      },
+            "BOT_TOKEN14": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
+      },
+            "BOT_TOKEN15": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
+      },
+            "BOT_TOKEN16": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
+      },
+            "BOT_TOKEN17": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
+      },
+            "BOT_TOKEN18": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
+      },
+            "BOT_TOKEN19": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
+      },
+            "BOT_TOKEN20": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
       },
        "SUDO_USER": {
             "description": "Sudo users id space by space",
