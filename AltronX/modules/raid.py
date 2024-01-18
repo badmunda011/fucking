@@ -15,6 +15,16 @@ que = {}
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
 async def spam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗥𝗮𝗶𝗱\n  » {hl}raid <count> <Username of User>\n  » {hl}raid <count> <reply to a User>"
     if e.sender_id in SUDO_USERS:
@@ -68,6 +78,16 @@ async def spam(e):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
 async def spam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗥𝗮𝗶𝗱\n  » {hl}raid <count> <Username of User>\n  » {hl}raid <count> <reply to a User>"
     if e.sender_id in SUDO_USERS:
@@ -121,6 +141,16 @@ async def spam(e):
 @MK8.on(events.NewMessage(incoming=True))
 @MK9.on(events.NewMessage(incoming=True))
 @MK10.on(events.NewMessage(incoming=True))
+@MK11.on(events.NewMessage(incoming=True))
+@MK12.on(events.NewMessage(incoming,=True))
+@MK13.on(events.NewMessage(incoming=True))
+@MK14.on(events.NewMessage(incoming=True))
+@MK15.on(events.NewMessage(incoming=True))
+@MK16.on(events.NewMessage(incoming=True))
+@MK17.on(events.NewMessage(incoming=True))
+@MK18.on(events.NewMessage(incoming=True))
+@MK19.on(events.NewMessage(incoming=True))
+@MK20.on(events.NewMessage(incoming=True))
 async def _(event):
     global que
     queue = que.get(event.sender_id)
@@ -144,6 +174,16 @@ async def _(event):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
 async def _(e):
     global que
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐏𝐁𝐈𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}sraid <Username of User>\n  » {hl}sraid <reply to a User>"
@@ -196,6 +236,16 @@ async def _(e):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
 async def _(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐃𝐏𝐁𝐈𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}dsraid <Username of User>\n  » {hl}dsraid <reply to a User>"
     global que    
@@ -236,6 +286,16 @@ async def _(e):
 @MK8.on(events.NewMessage(incoming=True))
 @MK9.on(events.NewMessage(incoming=True))
 @MK10.on(events.NewMessage(incoming=True))
+@MK11.on(events.NewMessage(incoming=True))
+@MK12.on(events.NewMessage(incoming=True))
+@MK13.on(events.NewMessage(incoming=True))
+@MK14.on(events.NewMessage(incoming=True))
+@MK15.on(events.NewMessage(incoming=True))
+@MK16.on(events.NewMessage(incoming=True))
+@MK17.on(events.NewMessage(incoming=True))
+@MK18.on(events.NewMessage(incoming=True))
+@MK19.on(events.NewMessage(incoming=True))
+@MK20.on(events.NewMessage(incoming=True))
 async def _(event):
     global que
     queue = que.get(event.sender_id)
@@ -259,6 +319,16 @@ async def _(event):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%srraid(?: |$)(.*)" % hl))
 async def _(e):
     global que
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}rraid <Username of User>\n  » {hl}rraid <reply to a User>"
@@ -311,6 +381,16 @@ async def _(e):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
 async def _(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐃𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}drraid <Username of User>\n  » {hl}drraid <reply to a User>"
     global que    
@@ -351,6 +431,16 @@ async def _(e):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
 async def spam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗠𝗥𝗮𝗶𝗱\n  » {hl}mraid <count> <Username of User>\n  » {hl}mraid <count> <reply to a User>"
     if e.sender_id in SUDO_USERS:
@@ -394,6 +484,16 @@ async def spam(e):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
 async def spam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗦𝗥𝗮𝗶𝗱\n  » {hl}sraid <count> <Username of User>\n  » {hl}sraid <count> <reply to a User>"
     if e.sender_id in SUDO_USERS:
@@ -437,6 +537,16 @@ async def spam(e):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%scraid(?: |$)(.*)" % hl))
 async def spam(e):
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: C𝗥𝗮𝗶𝗱\n  » {hl}craid <count> <Username of User>\n  » {hl}craid <count> <reply to a User>"
     if e.sender_id in SUDO_USERS:
@@ -468,3 +578,4 @@ async def spam(e):
                 await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
+         
