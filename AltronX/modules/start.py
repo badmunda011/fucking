@@ -28,12 +28,22 @@ PythonButton = [
 @MK8.on(events.NewMessage(pattern="/start"))
 @MK9.on(events.NewMessage(pattern="/start"))
 @MK10.on(events.NewMessage(pattern="/start"))
+@MK11.on(events.NewMessage(pattern="/start"))
+@MK12.on(events.NewMessage(pattern="/start"))
+@MK13.on(events.NewMessage(pattern="/start"))
+@MK14.on(events.NewMessage(pattern="/start"))
+@MK15.on(events.NewMessage(pattern="/start"))
+@MK16.on(events.NewMessage(pattern="/start"))
+@MK17.on(events.NewMessage(pattern="/start"))
+@MK18.on(events.NewMessage(pattern="/start"))
+@MK19.on(events.NewMessage(pattern="/start"))
+@MK20.on(events.NewMessage(pattern="/start"))
 async def start(event):              
     if event.is_private:
         AltBot = await event.client.get_me()
         BotName = AltBot.first_name
         BotId = AltBot.id
-        TEXT = f"**𝐇ᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝐈 𝐀𝐦 [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+        TEXT = f"**𝐇ᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝐈 𝐀𝐦 [{BotName}](tg://user?id={BotId})**\n━━━━━━━━━━━━━━━━━━━\n\n"
         TEXT += f"» **✦ 𝐃ᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ :~ [⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/II_BAD_MUNDA_II)**\n\n"
         TEXT += f"» ** 𝐋ᴇɢᴇɴᴅ sᴘᴀᴍ x ᴠᴇʀsɪᴏɴ :** `3.2`\n"
         TEXT += f"» **𝐓ᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
@@ -42,3 +52,4 @@ async def start(event):
                 "https://telegra.ph/file/911bc5ee7330f9dc72ee8.jpg",
                 caption=TEXT, 
                 buttons=PythonButton)
+            
