@@ -19,6 +19,16 @@ from AltronX.data import ALTRON
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
+@MK12.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%secho(?: |$)(.*)" % hl))
 async def echo(event):
   usage = f"**ᴇᴄʜᴏ**:\n  » `{hl}echo <reply to a User>`"
   if event.sender_id in SUDO_USERS:
@@ -57,6 +67,16 @@ async def echo(event):
 @MK8.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@MK11.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@MK22.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@MK13.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@MK14.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@MK15.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@MK16.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@MK17.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@MK18.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@MK19.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@MK20.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
 async def rmecho(event):
   usage = f"**ʀᴇᴍᴏᴠᴇ ᴇᴄʜᴏ**:\n  » `{hl}rmecho <reply to a User>`"
   if event.sender_id in SUDO_USERS:
@@ -88,6 +108,16 @@ async def rmecho(event):
 @MK8.on(events.NewMessage(incoming=True))
 @MK9.on(events.NewMessage(incoming=True))
 @MK10.on(events.NewMessage(incoming=True))
+@MK11.on(events.NewMessage(incoming=True))
+@MK12.on(events.NewMessage(incoming=True))
+@MK13.on(events.NewMessage(incoming=True))
+@MK14.on(events.NewMessage(incoming=True))
+@MK15.on(events.NewMessage(incoming=True))
+@MK16.on(events.NewMessage(incoming=True))
+@MK17.on(events.NewMessage(incoming=True))
+@MK18.on(events.NewMessage(incoming=True))
+@MK19.on(events.NewMessage(incoming=True))
+@MK20.on(events.NewMessage(incoming=True))
 async def _(e):
     if is_echo(e.sender_id, e.chat_id):
         await asyncio.sleep(0.3)
@@ -98,3 +128,4 @@ async def _(e):
             pass
         if e.message.text or e.message.sticker:
             await e.reply(e.message)
+        
