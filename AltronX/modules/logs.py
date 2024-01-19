@@ -22,11 +22,6 @@ Heroku = heroku3.from_key(HEROKU_API_KEY)
 @MK13.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
 @MK14.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
 @MK15.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
-@MK16.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
-@MK17.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
-@MK18.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
-@MK19.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
-@MK20.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
 async def logs(legend):
     if legend.sender_id == OWNER_ID:
         if (HEROKU_APP_NAME is None) or (HEROKU_API_KEY is None):
