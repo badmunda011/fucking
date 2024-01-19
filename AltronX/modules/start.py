@@ -33,11 +33,6 @@ PythonButton = [
 @MK13.on(events.NewMessage(pattern="/start"))
 @MK14.on(events.NewMessage(pattern="/start"))
 @MK15.on(events.NewMessage(pattern="/start"))
-@MK16.on(events.NewMessage(pattern="/start"))
-@MK17.on(events.NewMessage(pattern="/start"))
-@MK18.on(events.NewMessage(pattern="/start"))
-@MK19.on(events.NewMessage(pattern="/start"))
-@MK20.on(events.NewMessage(pattern="/start"))
 async def start(event):              
     if event.is_private:
         AltBot = await event.client.get_me()
