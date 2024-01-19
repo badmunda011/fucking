@@ -20,11 +20,6 @@ PythonHelp = f"★ 𝐋𝐄𝐆𝐄𝐍𝐃 𝐒𝐏𝐀𝐌 𝐇𝐄𝐋𝐏 �
 @MK13.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
 @MK14.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
 @MK15.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
-@MK16.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
-@MK17.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
-@MK18.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
-@MK19.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
-@MK20.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
@@ -144,11 +139,6 @@ spam_msg = f"""
 @MK13.on(events.CallbackQuery(pattern=r"help_back"))
 @MK14.on(events.CallbackQuery(pattern=r"help_back"))
 @MK15.on(events.CallbackQuery(pattern=r"help_back"))
-@MK16.on(events.CallbackQuery(pattern=r"help_back"))
-@MK17.on(events.CallbackQuery(pattern=r"help_back"))
-@MK18.on(events.CallbackQuery(pattern=r"help_back"))
-@MK19.on(events.CallbackQuery(pattern=r"help_back"))
-@MK20.on(events.CallbackQuery(pattern=r"help_back"))
 async def helpback(event):
    if event.query.user_id in SUDO_USERS:    
       await event.edit(
@@ -186,11 +176,6 @@ async def helpback(event):
 @MK13.on(events.CallbackQuery(pattern=r"spam"))
 @MK14.on(events.CallbackQuery(pattern=r"spam"))
 @MK15.on(events.CallbackQuery(pattern=r"spam"))
-@MK16.on(events.CallbackQuery(pattern=r"spam"))
-@MK17.on(events.CallbackQuery(pattern=r"spam"))
-@MK18.on(events.CallbackQuery(pattern=r"spam"))
-@MK19.on(events.CallbackQuery(pattern=r"spam"))
-@MK20.on(events.CallbackQuery(pattern=r"spam"))
 async def help_spam(event):
    if event.query.user_id in SUDO_USERS:    
        await event.edit(spam_msg,
@@ -215,11 +200,6 @@ async def help_spam(event):
 @MK13.on(events.CallbackQuery(pattern=r"raid"))
 @MK14.on(events.CallbackQuery(pattern=r"raid"))
 @MK15.on(events.CallbackQuery(pattern=r"raid"))
-@MK16.on(events.CallbackQuery(pattern=r"raid"))
-@MK17.on(events.CallbackQuery(pattern=r"raid"))
-@MK18.on(events.CallbackQuery(pattern=r"raid"))
-@MK19.on(events.CallbackQuery(pattern=r"raid"))
-@MK20.on(events.CallbackQuery(pattern=r"raid"))
 async def help_raid(event):
      if event.query.user_id in SUDO_USERS:
         await event.edit(raid_msg,
@@ -244,11 +224,6 @@ async def help_raid(event):
 @MK13.on(events.CallbackQuery(pattern=r"extra"))
 @MK14.on(events.CallbackQuery(pattern=r"extra"))
 @MK15.on(events.CallbackQuery(pattern=r"extra"))
-@MK16.on(events.CallbackQuery(pattern=r"extra"))
-@MK17.on(events.CallbackQuery(pattern=r"extra"))
-@MK18.on(events.CallbackQuery(pattern=r"extra"))
-@MK19.on(events.CallbackQuery(pattern=r"extra"))
-@MK20.on(events.CallbackQuery(pattern=r"extra"))
 async def help_extra(event):
    if event.query.user_id in SUDO_USERS:
         await event.edit(extra_msg,
