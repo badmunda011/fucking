@@ -22,11 +22,6 @@ from telethon import events
 @MK13.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 @MK14.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 @MK15.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK16.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK17.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK18.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK19.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@MK20.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
@@ -51,11 +46,6 @@ async def ping(e):
 @MK13.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 @MK14.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 @MK15.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK16.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK17.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK18.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK19.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
-@MK20.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
         await e.reply(f" ਰੁੱਕ ਥੋੜਾ ਟਾਈਮ 🥵")
@@ -122,11 +112,6 @@ sudousers = os.environ.get("SUDO_USER", None)
 @MK13.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @MK14.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @MK15.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
-@MK16.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
-@MK17.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
-@MK18.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
-@MK19.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
-@MK20.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 async def addsudo(event):
     if event.sender_id == OWNER_ID:
         ok = await event.reply(f"» __ਬੈਡ ਦਾ ਨਵਾ ਮੁੰਡਾ ਜੰਮ ਰੀਆ...__")
