@@ -90,6 +90,11 @@
         "value": "",
         "required": true  
       },
+                 "BOT_TOKEN16": {
+        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "value": "",
+        "required": true  
+      },
                   "BOT_TOKEN17": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
@@ -295,4 +300,4 @@
         }
     ]
     }
-        
+
