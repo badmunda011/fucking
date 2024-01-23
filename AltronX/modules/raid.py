@@ -202,7 +202,7 @@ async def spam(e):
 @MK9.on(events.NewMessage(incoming=True))
 @MK10.on(events.NewMessage(incoming=True))
 @MK11.on(events.NewMessage(incoming=True))
-@MK12.on(events.NewMessage(incoming,=True))
+@MK12.on(events.NewMessage(incoming=True))
 @MK13.on(events.NewMessage(incoming=True))
 @MK14.on(events.NewMessage(incoming=True))
 @MK15.on(events.NewMessage(incoming=True))
